@@ -111,7 +111,7 @@ def main():
     print("=" * 60)
     print(f"Winning combo (chosen using TRAIN data only): "
           f"RSI={best_rsi}, stop-loss={best_stop:.0%}")
-    print(f"\nTEST PERIOD (2015-present) performance, $10,000 start:")
+    print(f"\nTEST PERIOD ({TRAIN_END}-present) performance, $10,000 start:")
     print(f"  Original strategy      : ${test_value_original:,.0f}")
     print(f"  Enhanced (tuned combo) : ${test_value_enhanced:,.0f}")
     print("=" * 60)
